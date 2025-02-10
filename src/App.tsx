@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Heart, Bean as Bear } from 'lucide-react';
-import backgroundImage from '/assets/back.jpg';
+import backgroundImage from './assets/back.jpg';
 
 function App() {
   const [message, setMessage] = useState('');
